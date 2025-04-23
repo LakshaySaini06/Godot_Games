@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://cpd3kxnswgepj"]
+
+[ext_resource type="AudioStream" uid="uid://brpimbejyxgdk" path="res://assets/music/Max Brhon - Cyberpunk [NCS Release].mp3" id="1_bn86q"]
+
+[node name="music" type="AudioStreamPlayer2D"]
+stream = ExtResource("1_bn86q")
+autoplay = true
+bus = &"Music"
